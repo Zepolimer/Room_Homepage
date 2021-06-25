@@ -61,10 +61,10 @@ header {
     background-color: transparent;
     cursor: pointer;
 }
-.navAnchor {
+nav {
     padding-right: 20px;
 }
-.navAnchor a {
+nav a {
     text-decoration: none;
     color: var(--Very-Dark-Gray);
     padding: 0 5px;
@@ -210,12 +210,12 @@ header {
 
 
 /* FOOTER */
-.attribution { 
+footer { 
     font-size: 11px; 
     text-align: center; 
     color: var(--Very-Dark-Gray);
 }
-.attribution a { 
+footer a { 
     text-decoration: none;
     color: var(--Dark-Gray); 
 }
@@ -244,10 +244,10 @@ header {
         background: transparent;
         position: unset;
     }
-    .navAnchor {
+    nav {
         padding-left: 3vw;
     }
-    .navAnchor a {
+    nav a {
         color:var(--White);
         padding: 0 15px;
     }
